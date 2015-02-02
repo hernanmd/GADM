@@ -1,5 +1,0 @@
-examples
-readArgentina
-
-	self new 
-		

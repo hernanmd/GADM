@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/2/2015 07:50",
+	"super" : "Object",
+	"category" : "GADM-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GADMv2CSV",
+	"type" : "normal"
+}

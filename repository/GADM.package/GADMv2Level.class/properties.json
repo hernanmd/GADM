@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/2/2015 08:28",
+	"super" : "Object",
+	"category" : "GADM-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mainName",
+		"names",
+		"levels",
+		"levelNumber",
+		"typeName",
+		"currentLevels"
+	],
+	"name" : "GADMv2Level",
+	"type" : "normal"
+}

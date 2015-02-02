@@ -3,3 +3,6 @@ Global Administrative Areas (GADM) is a spatial database of the location of the 
 
 HASC : http://www.statoids.com/ihasc.html
 
+Level Types
+
+#('Province' 'District' 'Dependency' 'Parish' 'Federal District' 'State' 'Territory' 'Division' 'Department' 'Region' 'Autonomous Region' 'City' 'Development Region')
