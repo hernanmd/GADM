@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "GADM-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"treeBuilder",
+		"tree"
+	],
+	"name" : "GADMv2TreeBuilderTest",
+	"type" : "normal"
+}
