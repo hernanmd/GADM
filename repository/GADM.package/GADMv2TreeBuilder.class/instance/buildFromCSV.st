@@ -8,4 +8,4 @@ buildFromCSV
 		do: [ : row | 
 			self record: (self recordFrom: row).
 			self buildRecordFrom: row ].
-	^ self records
+
