@@ -1,14 +1,14 @@
 printing
-addLevelRecord: anInteger at: aString levelDepth: aLevel
+addNodeTo: aNode atDepth: anInteger typeName: aString
 	" Add and answer a new level node at level number anInteger (in the receiver's tree), with region type named aString "
 
-	| newLevel |
+	| node |
 	
-	newLevel := GADMv2Level new
+	node := GADMv2Node new
 				typeName: (aString ifNil: [ 'Unknown' ] ifNotNil: [ aString ]);
 				levelNumber: anInteger;
 				yourself.
-	aLevel addLevel: newLevel.
-	 self currentLevels: newLevel.
-	^ newLevel
+	aNode addNode: node.
+	 self currentLevels: node.
+	^ node
 

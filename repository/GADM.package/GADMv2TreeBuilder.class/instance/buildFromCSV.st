@@ -1,11 +1,7 @@
 accessing
 buildFromCSV
-	" Answer a <Collection> of <GADMv2Record> with all GADM contents specified in aCollection "
+	" Answer a <Dictionary> containing level 0 (country) world regions "
 
-	(NeoCSVReader on: self gadmCSVStream)
-		separator: $,;
-		skipHeader;
-		do: [ : row | 
-			self record: (self recordFrom: row).
-			self buildRecordFrom: row ].
+	self buildRecordsFromCSV.
+	^ self records.
 

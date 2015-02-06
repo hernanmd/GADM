@@ -5,7 +5,8 @@ buildRecordFrom: row
 	(self gadmLevelIndexesFor: row) doWithIndex: [ : arrayOfIndexes : index |
 		(self includesRecordInfo: arrayOfIndexes)
 			ifTrue: [ self record 
-						addLevel: index at: arrayOfIndexes first 
-						put: arrayOfIndexes allButFirst ]
+						addNodeAtLevel: index 
+						typeString: arrayOfIndexes first 
+						names: arrayOfIndexes allButFirst ]
 			ifFalse: [ ^ self ] ].
 

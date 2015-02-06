@@ -8,11 +8,11 @@
 	"instvars" : [
 		"mainName",
 		"names",
-		"levels",
 		"levelNumber",
 		"typeName",
-		"currentLevels"
+		"currentLevels",
+		"nodes"
 	],
-	"name" : "GADMv2Level",
+	"name" : "GADMv2Node",
 	"type" : "normal"
 }

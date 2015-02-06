@@ -5,7 +5,7 @@ recordFrom: row
 	^ self records 
 		at: (row at: 4)
 		ifAbsentPut: [ 
-			GADMv2Level new 
+			GADMv2Node new 
 				mainName: (row at: 4); 
 				levelNumber: 0; 
 				yourself ]

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "HernanMoralesDurand 2/6/2015 00:34",
+	"super" : "Object",
+	"category" : "GADM-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"UniqueInstance"
+	],
+	"instvars" : [
+		"root"
+	],
+	"name" : "GADMWorldTree",
+	"type" : "normal"
+}
