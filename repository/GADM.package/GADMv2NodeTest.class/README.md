@@ -1,0 +1,1 @@
+A GADMv2NodeTest is a test class for testing the behavior of GADMv2Node

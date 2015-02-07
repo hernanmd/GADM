@@ -1,4 +1,4 @@
-accessing
+private
 addNodeAtLevel: anInteger typeString: typeString names: namesString
 	" Private - Add subdivision data found for level anInteger, including typeString and namesString data "
 

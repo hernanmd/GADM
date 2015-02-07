@@ -1,3 +1,3 @@
-accessing
+private
 currentLevels
 	^ currentLevels

@@ -1,3 +1,3 @@
-accessing
+private
 currentLevels: anObject
 	currentLevels := anObject
