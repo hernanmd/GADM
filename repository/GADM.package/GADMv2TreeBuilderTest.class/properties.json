@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"treeBuilder",
-		"tree"
+		"treeBuilderRecords"
 	],
 	"name" : "GADMv2TreeBuilderTest",
 	"type" : "normal"

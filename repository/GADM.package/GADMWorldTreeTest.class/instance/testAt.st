@@ -7,5 +7,9 @@ testAt
 	self assert: ((self worldTree @ 'georgia') isKindOf: GADMv2Node).
 	self assert: ((self worldTree @ 'georgia' @ 'Guria') isKindOf: GADMv2Node).
 	self assert: ((self worldTree @ 'United States' @ 'California' @ 'Los Angeles') isKindOf: GADMv2Node).
+	
+	self should: [ self worldTree @ 'USA' ] raise: Error.
+	self should: [ self worldTree @ 'U.S.A.' ] raise: Error.
+	self should: [ self worldTree @ 'UK' ] raise: Error.
 	self should: [ self worldTree @ String empty ] raise: Error.
 	
