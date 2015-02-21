@@ -1,5 +1,5 @@
 accessing
 nodeNames
-	" Answer a <Collection> with receiver's node (sublevel) names "
+	" Answer a sorted <Collection> with receiver's node (sublevel) names "
 	
-	^ self nodes collect: #mainName
+	^ (self nodes collect: #mainName) asSortedCollection
