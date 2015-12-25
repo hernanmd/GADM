@@ -1,0 +1,6 @@
+catalog
+catalogDescription
+	"Returns a paragraph describing the project"
+	^ 'GADM is a high-resolution spatial database of the location of the world''s administrative areas for use in GIS and similar software. GADM is freely available for academic and other non-commercial use. The data contained in GADM was collected from spatial databases provided by NGO, National Governments, and/or maps and list of names available on the Internet (e.g. from Wikipedia). 
+	
+Administrative areas include: countries, provinces, counties, departments, etc. up to five sublevels, which cover most boundaries in the world. For each level it provides some attributes, foremost being the name and in some cases variant names. GADM can also be used to extract polygon shapes for visualization, for example to build choropleth maps for regions. The GADM package includes the raw data in CSV format, which I parsed to build a browseable GADM world tree, allowing off-line access to the GADM database in a hierarchical fashion with objects, without need to perform on-line queries for basic requests. A hierarchical tree can be used to build a toponym browser for example. '
