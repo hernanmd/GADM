@@ -11,11 +11,11 @@ baseline03: spec
 				spec
 					className: #ConfigurationOfNeoCSV;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/';
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/';
 					repository: 'http://smalltalkhub.com/mc/SvenVanCaekenberghe/Neo/main/' ];
 			project: 'OSProcess' with: [
 				spec
 					className: #ConfigurationOfOSProcess;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo30/main/' ].
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ].
 		spec package: 'GADM'. ].

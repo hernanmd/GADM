@@ -6,7 +6,8 @@ extractGZip: fileRef in: dst
 	(fileRef fullName endsWith: '.gz')
 		ifFalse: [ ^ self ].
 	unzipped := GZipReadStream unzip: fileRef basename to: dst.
-	OSProcess thisOSProcess
-		waitForCommandOutput: 'tar xvf ' , unzipped asFileReference fullName.
-	fileRef delete.
-	unzipped asFileReference delete
+	(Smalltalk hasClassNamed: #OSProcess)
+		ifTrue: [ 
+			(Smalltalk at: #OSProcess) thisOSProcess waitForCommandOutput: 'tar xvf ' , unzipped asFileReference fullName.
+			fileRef delete.
+			unzipped asFileReference delete ]
