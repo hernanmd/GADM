@@ -10,4 +10,4 @@ version15: spec
 		spec 
 			project: 'NeoCSV' with: '12';
 			project: 'OSProcess' with: '4.6.4'.
-		spec package: 'GADM' with: 'GADM-HernanMoralesDurand.15'. ].
+		spec package: 'GADM' with: 'GADM-HernanMoralesDurand.14'. ].

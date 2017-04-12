@@ -4,7 +4,7 @@ platformFilesUrl
 
 	^ String streamContents: [ : stream |
 		stream 
-			nextPutAll: 'http://dl.dropboxusercontent.com/u/103833630/';
+			nextPutAll: 'https://github.com/hernanmd/Territorial/raw/master/res/';
 			nextPutAll: (Smalltalk os isWin32 
 						ifTrue: [ 'gadm28_dbf.zip' ]
 						ifFalse: [ 'gadm28_dbf.tar.gz' ]) ].
