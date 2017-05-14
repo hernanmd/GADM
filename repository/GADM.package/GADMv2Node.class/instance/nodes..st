@@ -1,4 +1,5 @@
 accessing
-nodes: anObject
+nodes: aCollection
+	" Set the receiver's children to be aCollection "
 	
-	nodes := anObject
+	nodes := aCollection
