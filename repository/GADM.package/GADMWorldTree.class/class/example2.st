@@ -7,7 +7,7 @@ example2
 
 	ds := (FTTreeDataSource
 		roots: world
-		children: [ : data | data nodes sort: [ :a :b | a name < b name ]  ])
+		children: [ : data | data nodes sort: [ :a :b | a mainName < b mainName ]  ])
 			 searchStrategy: #allItems;
 			yourself.
 

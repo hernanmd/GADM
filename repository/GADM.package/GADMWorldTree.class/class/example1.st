@@ -6,7 +6,7 @@ example1
 
 	ds := FTTreeDataSource
 		roots: world
-		children: [ : data | data nodes sort: [ :a :b | a name < b name ]  ].
+		children: [ : data | data nodes sort: [ :a :b | a mainName < b mainName ]  ].
 
 	FTTableMorph new
 		extent: 300 @ 400;
