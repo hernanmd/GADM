@@ -8,9 +8,9 @@ baseline: spec
 				preLoadDoIt: #preLoad;		
 
 				baseline: 'NeoCSV' with: [ spec repository: 'github://svenvc/NeoCSV/repository' ];
-				package: 'GADM-Core' with: [ spec requires: #('NeoCSV') ];
-				package: 'GADM-Tests' with: [ spec requires: #('GADM-Core') ];
+				package: 'GADM' with: [ spec requires: #('NeoCSV') ];
+				package: 'GADM-Tests' with: [ spec requires: #('GADM') ];
 				
-				group: 'default' with: #('core' 'tests');
-				group: 'core' with: #('GADM-Core');
-				group: 'tests' with: #('GADM-Core' 'GADM-Tests') ]
+				group: 'default' with: #('Core' 'Tests');
+				group: 'Core' with: #('GADM');
+				group: 'Tests' with: #('GADM' 'GADM-Tests') ]
