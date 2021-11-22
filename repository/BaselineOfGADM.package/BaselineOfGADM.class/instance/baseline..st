@@ -5,7 +5,8 @@ baseline: spec
 		for: #common
 		do: [ 
 			spec
-				preLoadDoIt: #preLoad;		
+				preLoadDoIt: #preLoad;
+				postLoadDoIt: #postLoad;
 
 				baseline: 'NeoCSV' with: [ spec repository: 'github://svenvc/NeoCSV/repository' ];
 				package: 'GADM' with: [ spec requires: #('NeoCSV') ];
